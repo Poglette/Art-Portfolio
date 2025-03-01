@@ -1,0 +1,91 @@
+import Navigation from "@/components/navigation"
+import { ArrowDownCircle } from "lucide-react"
+import Link from "next/link"
+
+export default function Home() {
+  return (
+    <main>
+      <div className="video-container">
+        <iframe
+          src="https://www.youtube.com/embed/YOUR_VIDEO_ID?autoplay=1&mute=1&loop=1&playlist=YOUR_VIDEO_ID&controls=0&showinfo=0&rel=0"
+          title="Portfolio Showreel"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          className="absolute top-0 left-0 w-full h-full"
+        ></iframe>
+
+        <div className="menu-overlay">
+          <Navigation />
+
+          <div className="flex flex-col items-center justify-center h-full">
+            <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 text-center">Creative 3D Artistry</h1>
+            <p className="text-xl md:text-2xl text-white/80 max-w-2xl text-center mb-8">
+              Bringing imagination to life through stunning 3D visualizations
+            </p>
+            <Link href="#about" className="flex items-center gap-2 text-white hover:text-white/80 transition-colors">
+              <span>Explore My Work</span>
+              <ArrowDownCircle className="animate-bounce" />
+            </Link>
+          </div>
+
+          <div className="flex justify-between items-center w-full">
+            <div className="text-white/80">© 2024 3D Artist</div>
+            <div className="flex gap-4">
+              <a href="#" className="text-white hover:text-white/80 transition-colors">
+                Instagram
+              </a>
+              <a href="#" className="text-white hover:text-white/80 transition-colors">
+                ArtStation
+              </a>
+              <a href="#" className="text-white hover:text-white/80 transition-colors">
+                Behance
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section id="about" className="py-20 px-6 bg-secondary/50 backdrop-blur-sm">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl font-bold mb-8 text-white">About Me</h2>
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <p className="text-lg mb-6 text-white/80">
+                I am a passionate 3D artist with expertise in modeling, animation, visualization, and concept art. My
+                work spans across various industries including film, gaming, architecture, and product design.
+              </p>
+              <p className="text-lg mb-6 text-white/80">
+                With over X years of experience, I've developed a unique style that combines technical precision with
+                artistic vision to create immersive and captivating 3D experiences.
+              </p>
+              <div className="flex gap-4">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-3 bg-white/10 backdrop-blur-sm text-white font-medium rounded hover:bg-white/20 transition-colors border border-white/10"
+                >
+                  ArtStation Profile
+                </a>
+                <Link
+                  href="/portfolio/modeling"
+                  className="px-6 py-3 bg-white text-secondary font-medium rounded hover:bg-white/90 transition-colors"
+                >
+                  View Portfolio
+                </Link>
+              </div>
+            </div>
+            <div className="aspect-square bg-white/5 backdrop-blur-sm rounded-lg overflow-hidden border border-white/10">
+              <img
+                src="/placeholder.svg?height=600&width=600"
+                alt="3D Artist Portrait"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  )
+}
+
