@@ -5,12 +5,12 @@ import PortfolioGrid from "@/components/portfolio-grid";
 const animationProjects = [
   {
     id: "anim-1",
-    title: "Desolate Landscape",
+    title: "Balles rebondissante",
     category: "animation",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Excercice1.1-vSDRoww24nvz1M8z7mcFFIgldRoDWG.png",
     description:
-      "Atmospheric scene featuring a haunting landscape with ethereal elements",
+      "Travail d'animation, la balle de gauche a été réalisé sans interpolation",
     details: {
       client: "Personal Project",
       duration: "3 weeks",
@@ -21,10 +21,10 @@ const animationProjects = [
   // Keep other projects with placeholder images
   {
     id: "anim-2",
-    title: "Product Animation",
+    title: "Fusée",
     category: "animation",
     image: "/placeholder.svg?height=600&width=800",
-    description: "Dynamic product showcase with mechanical animations",
+    description: "Travail sur l'orientation dans l'espace 3D",
     details: {
       client: "TechCorp Industries",
       duration: "2 weeks",
@@ -34,7 +34,7 @@ const animationProjects = [
   },
   {
     id: "anim-3",
-    title: "Architectural Flythrough",
+    title: "Contraite 1",
     category: "animation",
     image: "/placeholder.svg?height=600&width=800",
     description: "Cinematic camera movement through architectural space",
@@ -93,11 +93,10 @@ export default function AnimationPortfolio() {
         <div className="max-w-7xl mx-auto">
           <header className="mb-16">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">
-              Animation Portfolio
+              Projet d'animation
             </h1>
             <p className="text-xl text-white/80 max-w-2xl">
-              Discover my animation work spanning atmospheric scenes, character
-              animations, and visual storytelling.
+              Projet d'animation permettant de pratiquer les principes de base d'animation
             </p>
           </header>
 

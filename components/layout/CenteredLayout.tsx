@@ -15,7 +15,7 @@ export const CenteredLayout = ({ children }: { children: React.ReactNode }) => {
         </div>
       </div>
 
-      <div className="min-h-screen flex flex-col justify-center items-center">
+      <div className="min-h-screen flex flex-col justify-between items-center">
         {children}
       </div>
     </main>

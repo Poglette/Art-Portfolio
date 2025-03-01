@@ -19,16 +19,16 @@ export default function Home() {
 
           <div className="flex flex-col items-center justify-center h-full">
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 text-center">
-              Creative 3D Artistry
+              Portfolio NAD
             </h1>
             <p className="text-xl md:text-2xl text-white/80 max-w-2xl text-center mb-8">
-              Bringing imagination to life through stunning 3D visualizations
+              Présentation de ma candidature 
             </p>
             <Link
               href="#about"
               className="flex items-center gap-2 text-white hover:text-white/80 transition-colors"
             >
-              <span>Explore My Work</span>
+              <span>Explorez mes travaux</span>
               <ArrowDownCircle className="animate-bounce" />
             </Link>
           </div>
@@ -58,20 +58,17 @@ export default function Home() {
       >
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
+            <div className="text-justify">
               <h2 className="text-4xl font-bold mb-8 text-white text-center">
                 À propos
               </h2>
               <p className="text-lg mb-6 text-white/80">
-                I am a passionate 3D artist with expertise in modeling,
-                animation, visualization, and concept art. My work spans across
-                various industries including film, gaming, architecture, and
-                product design.
+                Je me présente, Émile, un grand admirateur d'art. Guitariste à mes heures perdues,
+                j'apprends à transformer les images en une autre forme de beauté afin de les faire
+                naître à l'écran.
               </p>
               <p className="text-lg mb-6 text-white/80">
-                With over X years of experience, I've developed a unique style
-                that combines technical precision with artistic vision to create
-                immersive and captivating 3D experiences.
+                Après plusieurs années d'étude en sciences humaines, j'entame mon parcours dans le monde de la 3D à vive allure.
               </p>
               <div className="flex gap-4 justify-center">
                 <Link

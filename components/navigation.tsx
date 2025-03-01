@@ -10,11 +10,11 @@ export default function Navigation() {
   const pathname = usePathname()
 
   const routes = [
-    { name: "Home", path: "/" },
-    { name: "3D Modeling", path: "/portfolio/modeling" },
+    { name: "Acceuil", path: "/" },
+    { name: "Modélisation", path: "/portfolio/modeling" },
     { name: "Animation", path: "/portfolio/animation" },
-    { name: "Video", path: "/portfolio/video" },
-    { name: "Technical Drawing", path: "/portfolio/technical-drawing" },
+    { name: "Vidéo", path: "/portfolio/video" },
+    { name: "Dessins", path: "/portfolio/technical-drawing" },
   ]
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen)

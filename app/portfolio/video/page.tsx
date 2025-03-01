@@ -31,11 +31,9 @@ export default function VideoPortfolio() {
                 ></iframe>
               </div>
               <div className="space-y-4">
-                <h2 className="text-2xl font-bold">Project Title 1</h2>
+                <h2 className="text-2xl font-bold">Le Drag au delà de la caméra</h2>
                 <p className="text-muted-foreground">
-                  Detailed description of your first video project. Explain the concept, tools used, and the creative
-                  process behind this piece. Highlight any particular challenges or innovative solutions you
-                  implemented.
+                  Reportage réalisé pour mon cours d'intégration afin de documenter le parcours de ma coéquipière et moi-même dans la création d'un événement. Ce projet nous a permis de mettre en lumière les différentes étapes de l'organisation, de la conception à la réalisation finale.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <span className="px-3 py-1 bg-secondary rounded-full text-sm">3D Animation</span>

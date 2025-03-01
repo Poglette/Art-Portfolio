@@ -5,12 +5,12 @@ import PortfolioGrid from "@/components/portfolio-grid";
 const modelingProjects = [
   {
     id: "model-1",
-    title: "Pixel Art Character - Tony",
+    title: "Chaise Ikea",
     category: "modeling",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/tony_porc2-8eVL1w6rnba8YnEE3uVICWt7krzmvx.png",
     description:
-      "Detailed pixel art character design of a charming pig character",
+      "Représentation d'une chaise Ikea réalisé avec une référence orthographique",
     details: {
       client: "Personal Project",
       duration: "2 weeks",
@@ -20,10 +20,10 @@ const modelingProjects = [
   },
   {
     id: "model-2",
-    title: "Architectural Interior",
+    title: "Coffre",
     category: "modeling",
     image: "/placeholder.svg?height=600&width=800",
-    description: "Detailed interior space with custom furniture",
+    description: "Modélisation réalisé avec des formes de base et une image de référence",
     details: {
       client: "Modern Spaces Architecture",
       duration: "4 weeks",
@@ -44,51 +44,13 @@ const modelingProjects = [
       role: "Character Artist",
     },
   },
-  {
-    id: "model-4",
-    title: "Product Visualization",
-    category: "modeling",
-    image: "/placeholder.svg?height=600&width=800",
-    description: "Photorealistic product model for marketing",
-    details: {
-      client: "TechGear Products",
-      duration: "3 weeks",
-      tools: ["Blender", "Cycles", "Substance Painter"],
-      role: "Product Visualization Artist",
-    },
-  },
-  {
-    id: "model-5",
-    title: "Environment Design",
-    category: "modeling",
-    image: "/placeholder.svg?height=600&width=800",
-    description: "Detailed environment model for game development",
-    details: {
-      client: "Epic Games",
-      duration: "12 weeks",
-      tools: ["Maya", "ZBrush", "Substance Designer", "Unreal Engine"],
-      role: "Senior Environment Artist",
-    },
-  },
-  {
-    id: "model-6",
-    title: "Mechanical Assembly",
-    category: "modeling",
-    image: "/placeholder.svg?height=600&width=800",
-    description: "Complex mechanical assembly with moving parts",
-    details: {
-      client: "Industrial Solutions Ltd",
-      duration: "5 weeks",
-      tools: ["Fusion 360", "KeyShot", "AutoCAD"],
-      role: "Technical 3D Artist",
-    },
-  },
+  
 ];
 
 export default function ModelingPortfolio() {
   return (
     <CenteredLayout>
-      <div className="pt-24 pb-20 px-6">
+      <div className="pt-24 px-6">
         <div className="max-w-7xl mx-auto">
           <header className="mb-16">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">
@@ -99,9 +61,16 @@ export default function ModelingPortfolio() {
             </p>
           </header>
 
+        </div>
+      </div>
+      <div className="pb-54 px-6">
+        <div className="max-w-7xl mx-auto">
+
+
           <PortfolioGrid projects={modelingProjects} category="modeling" />
         </div>
       </div>
+      <div/>
     </CenteredLayout>
   );
 }
