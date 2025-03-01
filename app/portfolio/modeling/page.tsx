@@ -1,13 +1,16 @@
-import Navigation from "@/components/navigation"
-import PortfolioGrid from "@/components/portfolio-grid"
+import CenteredLayout from "@/components/layout/CenteredLayout";
+import Navigation from "@/components/navigation";
+import PortfolioGrid from "@/components/portfolio-grid";
 
 const modelingProjects = [
   {
     id: "model-1",
     title: "Pixel Art Character - Tony",
     category: "modeling",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/tony_porc2-8eVL1w6rnba8YnEE3uVICWt7krzmvx.png",
-    description: "Detailed pixel art character design of a charming pig character",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/tony_porc2-8eVL1w6rnba8YnEE3uVICWt7krzmvx.png",
+    description:
+      "Detailed pixel art character design of a charming pig character",
     details: {
       client: "Personal Project",
       duration: "2 weeks",
@@ -80,33 +83,26 @@ const modelingProjects = [
       role: "Technical 3D Artist",
     },
   },
-]
+];
 
 export default function ModelingPortfolio() {
   return (
-    <main
-      className="min-h-screen"
-      style={{ background: "linear-gradient(to bottom, #04082f, #26272d)", backgroundAttachment: "fixed" }}
-    >
-      <div className="bg-black/50 backdrop-blur-sm fixed w-full z-10">
-        <div className="max-w-7xl mx-auto px-6 py-4">
-          <Navigation />
-        </div>
-      </div>
-
+    <CenteredLayout>
       <div className="pt-24 pb-20 px-6">
         <div className="max-w-7xl mx-auto">
           <header className="mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">Modélisation 3D</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">
+              Modélisation 3D
+            </h1>
             <p className="text-xl text-white/80 max-w-2xl">
-              Explore my collection of detailed 3D models, pixel art, and character designs.
+              Explore my collection of detailed 3D models, pixel art, and
+              character designs.
             </p>
           </header>
 
           <PortfolioGrid projects={modelingProjects} category="modeling" />
         </div>
       </div>
-    </main>
-  )
+    </CenteredLayout>
+  );
 }
-

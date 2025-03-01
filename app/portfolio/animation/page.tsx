@@ -1,13 +1,16 @@
-import Navigation from "@/components/navigation"
-import PortfolioGrid from "@/components/portfolio-grid"
+import CenteredLayout from "@/components/layout/CenteredLayout";
+import Navigation from "@/components/navigation";
+import PortfolioGrid from "@/components/portfolio-grid";
 
 const animationProjects = [
   {
     id: "anim-1",
     title: "Desolate Landscape",
     category: "animation",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Excercice1.1-vSDRoww24nvz1M8z7mcFFIgldRoDWG.png",
-    description: "Atmospheric scene featuring a haunting landscape with ethereal elements",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Excercice1.1-vSDRoww24nvz1M8z7mcFFIgldRoDWG.png",
+    description:
+      "Atmospheric scene featuring a haunting landscape with ethereal elements",
     details: {
       client: "Personal Project",
       duration: "3 weeks",
@@ -81,33 +84,26 @@ const animationProjects = [
       role: "Animator & Compositor",
     },
   },
-]
+];
 
 export default function AnimationPortfolio() {
   return (
-    <main
-      className="min-h-screen"
-      style={{ background: "linear-gradient(to bottom, #04082f, #26272d)", backgroundAttachment: "fixed" }}
-    >
-      <div className="bg-black/50 backdrop-blur-sm fixed w-full z-10">
-        <div className="max-w-7xl mx-auto px-6 py-4">
-          <Navigation />
-        </div>
-      </div>
-
+    <CenteredLayout>
       <div className="pt-24 pb-20 px-6">
         <div className="max-w-7xl mx-auto">
           <header className="mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">Animation Portfolio</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">
+              Animation Portfolio
+            </h1>
             <p className="text-xl text-white/80 max-w-2xl">
-              Discover my animation work spanning atmospheric scenes, character animations, and visual storytelling.
+              Discover my animation work spanning atmospheric scenes, character
+              animations, and visual storytelling.
             </p>
           </header>
 
           <PortfolioGrid projects={animationProjects} category="animation" />
         </div>
       </div>
-    </main>
-  )
+    </CenteredLayout>
+  );
 }
-
