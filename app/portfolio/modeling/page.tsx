@@ -99,7 +99,7 @@ export default function ModelingPortfolio() {
           <header className="mb-16">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">Modélisation 3D</h1>
             <p className="text-xl text-white/80 max-w-2xl">
-              Explore my collection of detailed 3D models, pixel art, and character designs.
+              Travaux réalisé en modélisation dans Maya.
             </p>
           </header>
 
