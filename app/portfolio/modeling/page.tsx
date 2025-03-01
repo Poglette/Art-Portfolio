@@ -50,9 +50,9 @@ const modelingProjects = [
 export default function ModelingPortfolio() {
   return (
     <CenteredLayout>
-      <div className="pt-24 px-6">
+      <div className="pt-24 px-6 w-full">
         <div className="max-w-7xl mx-auto">
-          <header className="mb-16">
+          <header>
             <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">
               Modélisation 3D
             </h1>
@@ -63,13 +63,10 @@ export default function ModelingPortfolio() {
 
         </div>
       </div>
-      <div className="pb-54 px-6">
         <div className="max-w-7xl mx-auto">
-
-
           <PortfolioGrid projects={modelingProjects} category="modeling" />
-        </div>
       </div>
+      <div/>
       <div/>
     </CenteredLayout>
   );
