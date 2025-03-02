@@ -20,7 +20,7 @@ const modelingProjects = [
     id: "model-2",
     title: "Coffre",
     category: "modeling",
-    image: "/coffre.png",
+    image: "/coffre1.png",
     description:
       "Modélisation réalisé avec des formes de base et une image de référence",
     details: {
