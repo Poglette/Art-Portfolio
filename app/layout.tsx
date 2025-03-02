@@ -6,8 +6,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: '3D Artist Portfolio',
-  description: 'Showcasing stunning 3D art and visualizations',
+  title: 'Émile Harel-Richard Art',
+  description: 'Portfolio de Emile Harel-Richard',
 };
 
 export default function RootLayout({
