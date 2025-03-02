@@ -1,60 +1,58 @@
-import CenteredLayout from "@/components/layout/CenteredLayout";
-import PortfolioGrid from "@/components/portfolio-grid";
+import CenteredLayout from '@/components/layout/CenteredLayout';
+import PortfolioGrid from '@/components/portfolio-grid';
 
 const technicalProjects = [
   {
-    id: "tech-1",
-    title: "Église",
-    category: "technical",
-    image:
-      "/eglise.png",
-    description:
-      "Dessin de batiment à deux points de fuites",
+    id: 'tech-1',
+    title: 'Église',
+    category: 'technical',
+    image: '/images/eglise.png',
+    description: 'Dessin de batiment à deux points de fuites',
     details: {
-      client: "Personal Project",
-      duration: "1 week",
-      tools: ["Aseprite", "Custom Pixel Tools", "Digital Color Theory"],
-      role: "Technical Pixel Artist",
+      client: 'Personal Project',
+      duration: '1 week',
+      tools: ['Aseprite', 'Custom Pixel Tools', 'Digital Color Theory'],
+      role: 'Technical Pixel Artist',
     },
   },
   // Keep other projects with placeholder images
   {
-    id: "tech-2",
-    title: "Magasin de beigne",
-    category: "technical",
-    image: "/beigne.png",
-    description: "Dessin de batiment à deux points fuites",
+    id: 'tech-2',
+    title: 'Magasin de beigne',
+    category: 'technical',
+    image: '/images/beigne.png',
+    description: 'Dessin de batiment à deux points fuites',
     details: {
-      client: "Engineering Solutions Ltd",
-      duration: "3 weeks",
-      tools: ["AutoCAD", "SolidWorks", "Technical Drawing Suite"],
-      role: "Technical Artist",
+      client: 'Engineering Solutions Ltd',
+      duration: '3 weeks',
+      tools: ['AutoCAD', 'SolidWorks', 'Technical Drawing Suite'],
+      role: 'Technical Artist',
     },
   },
   {
-    id: "tech-3",
-    title: "La forêt désolé",
-    category: "technical",
-    image: "/foret.png",
-    description: "Défi personnel: un dessin, une histoire",
+    id: 'tech-3',
+    title: 'La forêt désolé',
+    category: 'technical',
+    image: '/images/foret.png',
+    description: 'Défi personnel: un dessin, une histoire',
     details: {
-      client: "ArchCorp",
-      duration: "2 weeks",
-      tools: ["AutoCAD", "Revit", "Architectural Blueprints"],
-      role: "Technical Illustrator",
+      client: 'ArchCorp',
+      duration: '2 weeks',
+      tools: ['AutoCAD', 'Revit', 'Architectural Blueprints'],
+      role: 'Technical Illustrator',
     },
   },
   {
-    id: "tech-4",
-    title: "Décor 2D",
-    category: "technical",
-    image: "/projet2.png",
-    description: "Décor 2D à trois points de fuite",
+    id: 'tech-4',
+    title: 'Décor 2D',
+    category: 'technical',
+    image: '/images/projet2.png',
+    description: 'Décor 2D à trois points de fuite',
     details: {
-      client: "GlobalTech Industries",
-      duration: "4 weeks",
-      tools: ["MATLAB", "Simulink", "Engineering Standards"],
-      role: "Schematic Designer",
+      client: 'GlobalTech Industries',
+      duration: '4 weeks',
+      tools: ['MATLAB', 'Simulink', 'Engineering Standards'],
+      role: 'Schematic Designer',
     },
   },
 ];

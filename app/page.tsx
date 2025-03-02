@@ -82,7 +82,7 @@ export default function Home() {
             </div>
             <div className="aspect-square bg-white/5 backdrop-blur-sm rounded-lg overflow-hidden border border-white/10">
               <img
-                src="/2024.jpg"
+                src="/images/2024.jpg"
                 alt="3D Artist Portrait"
                 className="w-full h-full object-cover"
               />

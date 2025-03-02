@@ -1,46 +1,46 @@
-import CenteredLayout from "@/components/layout/CenteredLayout";
-import PortfolioGrid from "@/components/portfolio-grid";
+import CenteredLayout from '@/components/layout/CenteredLayout';
+import PortfolioGrid from '@/components/portfolio-grid';
 
 const modelingProjects = [
   {
-    id: "model-1",
-    title: "Chaise Ikea",
-    category: "modeling",
-    image: "/chaise.png",
+    id: 'model-1',
+    title: 'Chaise Ikea',
+    category: 'modeling',
+    image: '/images/chaise.png',
     description:
       "Représentation d'une chaise Ikea réalisé avec une référence orthographique",
     details: {
-      client: "Personal Project",
-      duration: "2 weeks",
-      tools: ["Aseprite", "Photoshop", "Custom Pixel Tools"],
-      role: "Pixel Artist & Character Designer",
+      client: 'Personal Project',
+      duration: '2 weeks',
+      tools: ['Aseprite', 'Photoshop', 'Custom Pixel Tools'],
+      role: 'Pixel Artist & Character Designer',
     },
   },
   {
-    id: "model-2",
-    title: "Coffre",
-    category: "modeling",
-    image: "/coffre1.png",
+    id: 'model-2',
+    title: 'Coffre',
+    category: 'modeling',
+    image: '/images/coffre1.png',
     description:
-      "Modélisation réalisé avec des formes de base et une image de référence",
+      'Modélisation réalisé avec des formes de base et une image de référence',
     details: {
-      client: "Modern Spaces Architecture",
-      duration: "4 weeks",
-      tools: ["3ds Max", "Corona Renderer", "Forest Pack", "RailClone"],
-      role: "3D Environment Artist",
+      client: 'Modern Spaces Architecture',
+      duration: '4 weeks',
+      tools: ['3ds Max', 'Corona Renderer', 'Forest Pack', 'RailClone'],
+      role: '3D Environment Artist',
     },
   },
   {
-    id: "model-3",
-    title: "Character Design",
-    category: "modeling",
-    image: "/placeholder.svg?height=600&width=800",
-    description: "Fully rigged character model for animation",
+    id: 'model-3',
+    title: 'Character Design',
+    category: 'modeling',
+    image: '/images/coffre2.png',
+    description: 'Fully rigged character model for animation',
     details: {
-      client: "GameStudio XYZ",
-      duration: "8 weeks",
-      tools: ["Maya", "ZBrush", "Marvelous Designer", "Substance Painter"],
-      role: "Character Artist",
+      client: 'GameStudio XYZ',
+      duration: '8 weeks',
+      tools: ['Maya', 'ZBrush', 'Marvelous Designer', 'Substance Painter'],
+      role: 'Character Artist',
     },
   },
 ];

@@ -69,7 +69,7 @@ export default function PortfolioGrid({
         open={isOpen}
         onOpenChange={(open) => !open && resetSelectedProject()}
       >
-        <DialogContent className="max-w-screen-lg p-0">
+        <DialogContent className="max-w-screen-lg p-0 border-[#222]">
           <div className="p-8">
             {selectedProject && (
               <img
@@ -79,6 +79,11 @@ export default function PortfolioGrid({
               />
             )}
           </div>
+          <style jsx global>{`
+            .dialog-close-button {
+              border: none !important;
+            }
+          `}</style>
         </DialogContent>
       </Dialog>
     </>

@@ -37,7 +37,7 @@
 @layer base {
   body {
     @apply bg-background text-foreground;
-    background: linear-gradient(to bottom, #04082f, #26272d);
+    background-color: black;
     min-height: 100vh;
     background-attachment: fixed;
   }
