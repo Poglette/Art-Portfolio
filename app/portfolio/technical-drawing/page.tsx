@@ -5,12 +5,12 @@ import PortfolioGrid from "@/components/portfolio-grid";
 const technicalProjects = [
   {
     id: "tech-1",
-    title: "Pixel Art Portrait",
+    title: "Église",
     category: "technical",
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/comrade-MsEztQKljSPl2zt3RTQfcW5Nmp2ROc.png",
+      "/eglise.png",
     description:
-      "Detailed pixel art portrait showcasing precise technical execution",
+      "Dessin de batiment à 2 points de fuites",
     details: {
       client: "Personal Project",
       duration: "1 week",
@@ -21,10 +21,10 @@ const technicalProjects = [
   // Keep other projects with placeholder images
   {
     id: "tech-2",
-    title: "Mechanical Component Design",
+    title: "Magasin de beigne",
     category: "technical",
-    image: "/placeholder.svg?height=600&width=800",
-    description: "Precision technical drawings for manufacturing",
+    image: "/beigne.png",
+    description: "Dessin de batiment à 2 points fuites",
     details: {
       client: "Engineering Solutions Ltd",
       duration: "3 weeks",
@@ -34,10 +34,10 @@ const technicalProjects = [
   },
   {
     id: "tech-3",
-    title: "Architectural Section",
+    title: "La forêt désolé",
     category: "technical",
     image: "/placeholder.svg?height=600&width=800",
-    description: "Cross-sectional technical drawing of building structure",
+    description: "Défi personnel: un dessin, une histoire",
     details: {
       client: "ArchCorp",
       duration: "2 weeks",
@@ -47,46 +47,17 @@ const technicalProjects = [
   },
   {
     id: "tech-4",
-    title: "Engineering Schematics",
+    title: "Décor 2D",
     category: "technical",
-    image: "/placeholder.svg?height=600&width=800",
-    description: "Detailed engineering drawings with specifications",
+    image: "/projet2.png",
+    description: "Décor 2D à 3 points de fuite",
     details: {
       client: "GlobalTech Industries",
       duration: "4 weeks",
       tools: ["MATLAB", "Simulink", "Engineering Standards"],
       role: "Schematic Designer",
     },
-  },
-  {
-    id: "tech-5",
-    title: "Industrial Design Blueprint",
-    category: "technical",
-    image: "/placeholder.svg?height=600&width=800",
-    description: "Technical blueprints for industrial product design",
-    details: {
-      client: "Innovate Products Inc.",
-      duration: "5 weeks",
-      tools: ["Rhino", "KeyShot", "Industrial Design Principles"],
-      role: "Blueprint Designer",
-    },
-  },
-  {
-    id: "tech-6",
-    title: "Construction Details",
-    category: "technical",
-    image: "/placeholder.svg?height=600&width=800",
-    description: "Detailed construction drawings with measurements",
-    details: {
-      client: "BuildRight Constructions",
-      duration: "3 weeks",
-      tools: [
-        "Bluebeam Revu",
-        "Construction Standards",
-        "On-Site Measurement Tools",
-      ],
-      role: "Construction Detailer",
-    },
+
   },
 ];
 
@@ -97,11 +68,10 @@ export default function TechnicalDrawingPortfolio() {
         <div className="max-w-7xl mx-auto">
           <header className="mb-16">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">
-              Technical Drawing Portfolio
+              Dessins technique et d'ambiance
             </h1>
             <p className="text-xl text-white/80 max-w-2xl">
-              Explore my collection of precise technical artwork, including
-              pixel art and detailed technical illustrations.
+            Dessins technique permettant un travail sur la perspective 
             </p>
           </header>
 

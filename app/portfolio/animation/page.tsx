@@ -8,7 +8,7 @@ const animationProjects = [
     title: "Balles rebondissante",
     category: "animation",
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Excercice1.1-vSDRoww24nvz1M8z7mcFFIgldRoDWG.png",
+      "/balle.gif",
     description:
       "Travail d'animation, la balle de gauche a été réalisé sans interpolation",
     details: {
@@ -23,7 +23,7 @@ const animationProjects = [
     id: "anim-2",
     title: "Fusée",
     category: "animation",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/fusee.gif",
     description: "Travail sur l'orientation dans l'espace 3D",
     details: {
       client: "TechCorp Industries",

@@ -8,7 +8,7 @@ const modelingProjects = [
     title: "Chaise Ikea",
     category: "modeling",
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/tony_porc2-8eVL1w6rnba8YnEE3uVICWt7krzmvx.png",
+      "/chaise.png",
     description:
       "Représentation d'une chaise Ikea réalisé avec une référence orthographique",
     details: {
@@ -22,8 +22,9 @@ const modelingProjects = [
     id: "model-2",
     title: "Coffre",
     category: "modeling",
-    image: "/placeholder.svg?height=600&width=800",
-    description: "Modélisation réalisé avec des formes de base et une image de référence",
+    image: "/coffre.png",
+    description:
+      "Modélisation réalisé avec des formes de base et une image de référence",
     details: {
       client: "Modern Spaces Architecture",
       duration: "4 weeks",
@@ -44,7 +45,6 @@ const modelingProjects = [
       role: "Character Artist",
     },
   },
-  
 ];
 
 export default function ModelingPortfolio() {
@@ -60,14 +60,13 @@ export default function ModelingPortfolio() {
               Travaux réalisé en modélisation dans Maya.
             </p>
           </header>
-
         </div>
       </div>
-        <div className="max-w-7xl mx-auto">
-          <PortfolioGrid projects={modelingProjects} category="modeling" />
+      <div className="w-full max-w-7xl">
+        <PortfolioGrid projects={modelingProjects} category="modeling" />
       </div>
-      <div/>
-      <div/>
+      <div />
+      <div />
     </CenteredLayout>
   );
 }
