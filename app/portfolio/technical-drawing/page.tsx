@@ -10,7 +10,7 @@ const technicalProjects = [
     image:
       "/eglise.png",
     description:
-      "Dessin de batiment à 2 points de fuites",
+      "Dessin de batiment à deux points de fuites",
     details: {
       client: "Personal Project",
       duration: "1 week",
@@ -24,7 +24,7 @@ const technicalProjects = [
     title: "Magasin de beigne",
     category: "technical",
     image: "/beigne.png",
-    description: "Dessin de batiment à 2 points fuites",
+    description: "Dessin de batiment à deux points fuites",
     details: {
       client: "Engineering Solutions Ltd",
       duration: "3 weeks",
@@ -50,7 +50,7 @@ const technicalProjects = [
     title: "Décor 2D",
     category: "technical",
     image: "/projet2.png",
-    description: "Décor 2D à 3 points de fuite",
+    description: "Décor 2D à trois points de fuite",
     details: {
       client: "GlobalTech Industries",
       duration: "4 weeks",

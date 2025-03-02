@@ -7,7 +7,7 @@ export default function Home() {
     <main>
       <div className="video-container">
         <iframe
-          src="https://www.youtube.com/embed/YOUR_VIDEO_ID?autoplay=1&mute=1&loop=1&playlist=YOUR_VIDEO_ID&controls=0&showinfo=0&rel=0"
+          src="https://www.youtube.com/embed/gJ9LfYDVA6Y?autoplay=1&mute=1&loop=1&playlist=gJ9LfYDVA6Y&controls=0&showinfo=0&rel=0"
           title="Portfolio Showreel"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -81,7 +81,7 @@ export default function Home() {
             </div>
             <div className="aspect-square bg-white/5 backdrop-blur-sm rounded-lg overflow-hidden border border-white/10">
               <img
-                src="/placeholder.svg?height=600&width=600"
+                src="/2024.jpg"
                 alt="3D Artist Portrait"
                 className="w-full h-full object-cover"
               />
