@@ -1,6 +1,6 @@
-import Navigation from "@/components/navigation";
-import { ArrowDownCircle } from "lucide-react";
-import Link from "next/link";
+import Navigation from '@/components/navigation';
+import { ArrowDownCircle } from 'lucide-react';
+import Link from 'next/link';
 
 export default function Home() {
   return (
