@@ -36,7 +36,7 @@ const technicalProjects = [
     id: "tech-3",
     title: "La forêt désolé",
     category: "technical",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/foret.png",
     description: "Défi personnel: un dessin, une histoire",
     details: {
       client: "ArchCorp",
@@ -71,7 +71,7 @@ export default function TechnicalDrawingPortfolio() {
               Dessins technique et d'ambiance
             </h1>
             <p className="text-xl text-white/80 max-w-2xl">
-            Dessins technique permettant un travail sur la perspective 
+            Dessins travaillant la perspective 
             </p>
           </header>
 
