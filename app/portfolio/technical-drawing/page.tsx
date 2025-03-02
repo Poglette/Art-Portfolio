@@ -33,7 +33,7 @@ const technicalProjects = [
     id: 'tech-3',
     title: 'La forêt désolé',
     category: 'technical',
-    image: '/images/foret.png',
+    image: '/images/foretd.png',
     description: 'Défi personnel: un dessin, une histoire',
     details: {
       client: 'ArchCorp',
