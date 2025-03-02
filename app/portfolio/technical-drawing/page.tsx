@@ -1,5 +1,4 @@
 import CenteredLayout from "@/components/layout/CenteredLayout";
-import Navigation from "@/components/navigation";
 import PortfolioGrid from "@/components/portfolio-grid";
 
 const technicalProjects = [
@@ -7,10 +6,8 @@ const technicalProjects = [
     id: "tech-1",
     title: "Église",
     category: "technical",
-    image:
-      "/eglise.png",
-    description:
-      "Dessin de batiment à 2 points de fuites",
+    image: "/eglise.png",
+    description: "Dessin de batiment à 2 points de fuites",
     details: {
       client: "Personal Project",
       duration: "1 week",
@@ -57,7 +54,6 @@ const technicalProjects = [
       tools: ["MATLAB", "Simulink", "Engineering Standards"],
       role: "Schematic Designer",
     },
-
   },
 ];
 
@@ -71,7 +67,7 @@ export default function TechnicalDrawingPortfolio() {
               Dessins technique et d'ambiance
             </h1>
             <p className="text-xl text-white/80 max-w-2xl">
-            Dessins travaillant la perspective 
+              Dessins travaillant la perspective
             </p>
           </header>
 

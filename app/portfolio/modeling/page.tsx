@@ -1,5 +1,4 @@
 import CenteredLayout from "@/components/layout/CenteredLayout";
-import Navigation from "@/components/navigation";
 import PortfolioGrid from "@/components/portfolio-grid";
 
 const modelingProjects = [
@@ -7,8 +6,7 @@ const modelingProjects = [
     id: "model-1",
     title: "Chaise Ikea",
     category: "modeling",
-    image:
-      "/chaise.png",
+    image: "/chaise.png",
     description:
       "Représentation d'une chaise Ikea réalisé avec une référence orthographique",
     details: {
