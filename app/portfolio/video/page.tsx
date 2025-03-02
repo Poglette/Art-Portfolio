@@ -44,7 +44,7 @@ export default function VideoPortfolio() {
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <span className="px-3 py-1 bg-secondary rounded-full text-sm">
-                    Motion Graphics
+                    DaVinci Resolve
                   </span>
                   <span className="px-3 py-1 bg-secondary rounded-full text-sm">
                     Character Animation
@@ -79,7 +79,7 @@ export default function VideoPortfolio() {
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <span className="px-3 py-1 bg-secondary rounded-full text-sm">
-                    3D Animation
+                    DaVinci Resolve
                   </span>
                   <span className="px-3 py-1 bg-secondary rounded-full text-sm">
                     Visual Effects
