@@ -1,5 +1,4 @@
 import CenteredLayout from "@/components/layout/CenteredLayout";
-import Navigation from "@/components/navigation";
 import PortfolioGrid from "@/components/portfolio-grid";
 
 const technicalProjects = [
@@ -57,7 +56,6 @@ const technicalProjects = [
       tools: ["MATLAB", "Simulink", "Engineering Standards"],
       role: "Schematic Designer",
     },
-
   },
 ];
 
@@ -71,7 +69,7 @@ export default function TechnicalDrawingPortfolio() {
               Dessins technique et d'ambiance
             </h1>
             <p className="text-xl text-white/80 max-w-2xl">
-            Dessins travaillant la perspective 
+              Dessins travaillant la perspective
             </p>
           </header>
 

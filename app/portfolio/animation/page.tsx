@@ -1,5 +1,4 @@
 import CenteredLayout from "@/components/layout/CenteredLayout";
-import Navigation from "@/components/navigation";
 import PortfolioGrid from "@/components/portfolio-grid";
 
 const animationProjects = [
@@ -7,8 +6,7 @@ const animationProjects = [
     id: "anim-1",
     title: "Balles rebondissante",
     category: "animation",
-    image:
-      "/balle.gif",
+    image: "/balle.gif",
     description:
       "Travail d'animation, la balle de gauche a été réalisé sans interpolation",
     details: {
@@ -96,7 +94,8 @@ export default function AnimationPortfolio() {
               Projet d'animation
             </h1>
             <p className="text-xl text-white/80 max-w-2xl">
-              Projet d'animation permettant de pratiquer les principes de base d'animation
+              Projet d'animation permettant de pratiquer les principes de base
+              d'animation
             </p>
           </header>
 

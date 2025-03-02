@@ -22,7 +22,7 @@ export default function Home() {
               Portfolio NAD
             </h1>
             <p className="text-xl md:text-2xl text-white/80 max-w-2xl text-center mb-8">
-              Présentation de ma candidature 
+              Présentation de ma candidature
             </p>
             <Link
               href="#about"
@@ -63,12 +63,13 @@ export default function Home() {
                 À propos
               </h2>
               <p className="text-lg mb-6 text-white/80">
-                Je me présente, Émile, un grand admirateur d'art. Guitariste à mes heures perdues,
-                j'apprends à transformer les images en une autre forme de beauté afin de les faire
-                naître à l'écran.
+                Je me présente, Émile, un grand admirateur d'art. Guitariste à
+                mes heures perdues, j'apprends à transformer les images en une
+                autre forme de beauté afin de les faire naître à l'écran.
               </p>
               <p className="text-lg mb-6 text-white/80">
-                Après plusieurs années d'étude en sciences humaines, j'entame mon parcours dans le monde de la 3D à vive allure.
+                Après plusieurs années d'étude en sciences humaines, j'entame
+                mon parcours dans le monde de la 3D à vive allure.
               </p>
               <div className="flex gap-4 justify-center">
                 <Link
