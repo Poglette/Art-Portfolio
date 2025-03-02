@@ -89,6 +89,17 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="max-w-6xl mx-auto mt-12">
+          <div className="aspect-video w-full overflow-hidden rounded-lg bg-secondary">
+            <iframe
+              src="https://www.youtube.com/embed/gJ9LfYDVA6Y?autoplay=1&mute=1&loop=1&playlist=gJ9LfYDVA6Y&controls=0&showinfo=0&rel=0"
+              title="Portfolio Showreel"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="w-full h-full"
+            ></iframe>
+          </div>
+        </div>
       </section>
     </main>
   );
