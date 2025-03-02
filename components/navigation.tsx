@@ -23,7 +23,7 @@ export default function Navigation() {
     <nav className="w-full">
       <div className="flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold text-white">
-          3D ARTIST
+          Émile Harel-Richard
         </Link>
 
         <div className="hidden md:flex items-center gap-8">
